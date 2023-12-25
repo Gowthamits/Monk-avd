@@ -76,8 +76,8 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
     await message.reply_text(
-         text=f"<b>𝐇𝐞𝐲 {user} 😍 ,\n\n𝐘𝐨𝐮 𝐂𝐚𝐧'𝐭 𝐆𝐞𝐭 𝐌𝐨𝐯𝐢𝐞𝐬 𝐅𝐫𝐨𝐦 𝐇𝐞𝐫𝐞. 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐢𝐭 𝐈𝐧 𝐎𝐮𝐫 <a href='https://t.me/hdmovie98763'>𝐌𝐨𝐯𝐢𝐞 𝐆𝐫𝐨𝐮𝐩</a> 𝐎𝐫 𝐂𝐥𝐢𝐜𝐤 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐇𝐞𝐫𝐞 𝐁𝐮𝐭𝐭𝐨𝐧 𝐁𝐞𝐥𝐨𝐰 👇</b>",   
-         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐇𝐞𝐫𝐞 ", url=f"https://t.me/hdmovie98763")]])
+         text=f"<b>𝐇𝐞𝐲 {user} 😍 ,\n\n𝐘𝐨𝐮 𝐂𝐚𝐧'𝐭 𝐆𝐞𝐭 𝐌𝐨𝐯𝐢𝐞𝐬 𝐅𝐫𝐨𝐦 𝐇𝐞𝐫𝐞. 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐢𝐭 𝐈𝐧 𝐎𝐮𝐫 <a href='https://t.me/+Dc97yAncLqpiMmE1'>𝐌𝐨𝐯𝐢𝐞 𝐆𝐫𝐨𝐮𝐩</a> 𝐎𝐫 𝐂𝐥𝐢𝐜𝐤 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐇𝐞𝐫𝐞 𝐁𝐮𝐭𝐭𝐨𝐧 𝐁𝐞𝐥𝐨𝐰 👇</b>",   
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐇𝐞𝐫𝐞 ", url=f"https://t.me/+JQLREpLZfmA5MzI1")]])
     )
     await bot.send_message(
         chat_id=LOG_CHANNEL,
@@ -1273,11 +1273,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "filters":
         buttons = [[
-            InlineKeyboardButton('𝐌𝐚𝐧𝐮𝐚𝐥 𝐅𝐢𝐥𝐭𝐞𝐫', callback_data='manuelfilter'),
-            InlineKeyboardButton('𝐀𝐮𝐭𝐨 𝐅𝐢𝐥𝐭𝐞𝐫', callback_data='autofilter')
+            InlineKeyboardButton('🎄𝐌𝐚𝐧𝐮𝐚𝐥 𝐅𝐢𝐥𝐭𝐞𝐫💖', callback_data='manuelfilter'),
+            InlineKeyboardButton('🌲𝐀𝐮𝐭𝐨 𝐅𝐢𝐥𝐭𝐞𝐫🍁', callback_data='autofilter')
         ],[
             InlineKeyboardButton('❄ 𝐁𝐚𝐜𝐤 ❄', callback_data='help'),
-            InlineKeyboardButton('𝐆𝐥𝐨𝐛𝐚𝐥 𝐅𝐢𝐥𝐭𝐞𝐫𝐬', callback_data='global_filters')
+            InlineKeyboardButton('💥𝐆𝐥𝐨𝐛𝐚𝐥 𝐅𝐢𝐥𝐭𝐞𝐫𝐬🦋', callback_data='global_filters')
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
