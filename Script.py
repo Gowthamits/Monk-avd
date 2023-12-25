@@ -1,22 +1,24 @@
 class script(object):
     START_TXT = """𝐇𝐞𝐥𝐥𝐨... {}
     
-𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 <a href=https://t.me/Athu_see_1287bot><b>☔𝐀𝐭𝐡𝐮𝐬𝐞𝐞♣</b></a>
+𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 <a href=https://t.me/Monk_Filter_Bot><b>☔ 𝐌𝐨𝐧𝐤 𝐅𝐢𝐥𝐭𝐞𝐫 𝐁𝐨𝐭♣</b></a>
 
 𝐈 𝐂𝐚𝐧 𝐏𝐫𝐨𝐯𝐢𝐝𝐞 𝐌𝐨𝐯𝐢𝐞𝐬, 𝐉𝐮𝐬𝐭 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐀𝐧𝐝 𝐌𝐚𝐤𝐞 𝐌𝐞 𝐀𝐝𝐦𝐢𝐧.. 𝐓𝐡𝐞𝐧 𝐒𝐞𝐞 𝐌𝐲 𝐏𝐨𝐰𝐞𝐫
 
-𝐌𝐚𝐤𝐞𝐫 𝐌𝐞 <a href=https://t.me/Vinoth0003><b>♣𝐀𝐮𝐭𝐡𝐨𝐫🥀</b></a></b>"""
+𝐌𝐚𝐤𝐞𝐫 𝐌𝐞 <a href=https://t.me/Mr_M_O_N_K><b>♣𝐀𝐮𝐭𝐡𝐨𝐫🥀</b></a></b>"""
     HELP_TXT = """<b>𝐇𝐞𝐲 {} 𝐅𝐫𝐢𝐞𝐧𝐝𝐬 𝐇𝐞𝐫𝐞 𝐘𝐨𝐮𝐫 𝐁𝐮𝐭𝐭𝐨𝐧𝐬 👇</b>"""
 
-    ABOUT_TXT = """<b>🎧 𝐌𝐲 𝐍𝐚𝐦𝐞 𝐢𝐬 : <a href=https://t.me/Athu_see_1287bot>☔𝐀𝐭𝐡𝐮𝐬𝐞𝐞♣</a>
-✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/vinoth42012'>𒆜 ᴠɪɴᴏᴛʜ 𝟐𝐊 ࿐</a>
-✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
-✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
-✯ DᴀᴛᴀBᴀsᴇ: <a href='https://www.mongodb.com/'>MᴏɴɢᴏDB</a>
-✯ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://app.koyeb.com/'>Kᴏʏᴇʙ</a>
-✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v2.7.1 [ Sᴛᴀʙʟᴇ ]</b>"""
+    ABOUT_TXT = """ʜᴇʏ {}
+ʜᴇʀᴇ ɪꜱ ᴍʏ ᴄᴏᴍᴍᴀɴᴅꜱ."""
+    ABOUT_TXT = """<b>🎧 𝐌𝐲 𝐍𝐚𝐦𝐞 𝐢𝐬 : <a href=https://t.me/Monk_Filter_Bot>☔ 𝐌𝐨𝐧𝐤 𝐅𝐢𝐥𝐭𝐞𝐫 𝐁𝐨𝐭♣</a>
+😈 𝐀𝐫𝐭𝐢𝐬𝐭 : <a href=https://t.me/Mr_M_O_N_K>🍁𝐎𝐰𝐧𝐞𝐫♠</a>
+👑 𝐃𝐞𝐯𝐨𝐥𝐨𝐩𝐞𝐫 : <a href=https://t.me/Mr_M_O_N_K>🌿𝐌𝐚𝐤𝐞𝐫⚜️</a>
+✍️ 𝐆𝐫𝐚𝐝𝐮𝐚𝐭𝐞 : <a href=https://t.me/Mr_M_O_N_K>🛬 𝐏𝐫𝐨𝐝𝐮𝐜𝐞𝐫🚦</a>
+♠ 𝐊𝐨𝐥𝐚𝐫𝐮 : <a href=https://t.me/Mr_M_O_N_K>🎭𝐃𝐨𝐥𝐢𝐭𝐚🔥</a>
+👨‍🔧 𝐇𝐞𝐥𝐩𝐞𝐫 : <a href=https://t.me/Mr_M_O_N_K>🦞𝐒𝐭𝐞𝐫𝐧𝐠𝐡🌿</a>
+⚜️ 𝐒𝐌𝐃 𝐁𝐎𝐓𝐳 : <a href=https://t.me/SMD_BotZ>🥀𝐂𝐫𝐞𝐚𝐭𝐨𝐫🎋</a></b>"""
 
-    SOURCE_TXT = """𝐓𝐡𝐢𝐬 𝐈𝐬 𝐀𝐧 𝐎𝐩𝐞𝐧-𝐒𝐨𝐮𝐫𝐜𝐞 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐁𝐲 @Vinoth0003
+    SOURCE_TXT = """𝐓𝐡𝐢𝐬 𝐈𝐬 𝐀𝐧 𝐎𝐩𝐞𝐧-𝐒𝐨𝐮𝐫𝐜𝐞 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐁𝐲 @Mr_M_O_N_K
 
 - 𝟏𝟎𝟎﹪ 𝐂𝐨𝐝𝐞𝐝 𝐁𝐲 <a href=https://t.me/SMD_Owner>🌿𝐑𝐨𝐥𝐞𝐱🦞</a>
 
@@ -200,20 +202,13 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """
-<b>[{file_name}]</b>
+    CAPTION = """<b>🗂FileName : <code>{file_name}</code> 
 
-<b>🅢🅘🅩🅔 - {file_size}</b>
+🏷FileSize : <code>{file_size}</code>
 
-<b>•────•────────•────•
-🔆𝗥ᴇǫᴜᴇsᴛ 𝗚ʀᴏᴜᴘ:[ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/hdmovie1211)
-🌟𝗠ᴏᴠɪᴇs 𝗖ʜᴀɴɴᴇʟ:[ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/+SJRv2hIgyUxiZjk1)
-•────•────────•────•
-⚙𝗔ᴅᴠɪsᴏʀ :[ᴠɪɴᴏᴛʜ 𝟐𝐊࿐](https://t.me/vinoth42012)
+♻️Join  Update ❤️‍🔥: @Monk_kbot</b>
 
-😎 நன்றி தலைவரே  🙏🏻
-
-🔥 𝐀𝐥𝐥 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞𝐬 𝐒𝐞𝐫𝐢𝐞𝐬 / 𝐌𝐨𝐯𝐢𝐞𝐬 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 🔥</b>"""
+👀ɴᴏᴛᴇ : ᴀꜰᴛᴇʀ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇ ꜰɪʟᴇꜱ, ꜱᴀᴠᴇ ᴛʜᴇ ꜰɪʟᴇ ᴛᴏ ɢᴀʟʟᴇʀʏ ᴀɴᴅ ᴄʟɪᴄᴋ ᴛʜᴇ ᴅᴇʟᴇᴛᴇ ʙᴜᴛᴛᴏɴ, ᴅᴏɴ'ᴛ ᴄʟɪᴄᴋ ʙᴇꜰᴏʀᴇ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇ ꜰɪʟᴇꜱ, ɪꜰ ᴜ ᴅᴏɴ'ᴛ ᴡᴀɴᴛ ᴛʜɪꜱ ꜰɪʟᴇ ᴘʟᴇᴀꜱᴇ ᴄʟɪᴄᴋ ᴅᴇʟᴇᴛᴇ ʙᴜᴛᴛᴏɴ</b>"""
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
 
